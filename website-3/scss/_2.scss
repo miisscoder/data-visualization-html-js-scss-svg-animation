@@ -1,0 +1,222 @@
+﻿@import '_variables.scss';
+
+body.page-2 {
+    background: url(../image/bk.jpg) no-repeat 0 0;
+
+    .back {
+        position: absolute;
+        left: 3730px;
+        top: 980px;
+
+        img {
+            width: 70px;
+        }
+    }
+
+    .v-line {
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        left: calc(3840px / 2);
+        top: 0;
+        background-color: #ffffff;
+    }
+
+
+    .main {
+        width: 100%;
+        height: 100%;
+
+        .tabs {
+            margin-left: 101px;
+            margin-right: calc(453px - 257.6px - 101px);
+            height: calc(875px + 104.5px - 105px);
+
+
+            .tab {
+                cursor: pointer;
+                opacity: 0.3;
+
+                &.active {
+                    opacity: 1;
+                }
+
+                img {
+                    width: 257.6px;
+                    height: 104.59px;
+                }
+            }
+        }
+
+        .line {
+            width: 3px;
+            height: 880px;
+        }
+
+        .tab-container {
+            display: none;
+
+            &[data-active='true'] {
+                display: flex;
+            }
+
+            .title-group {
+                width: 100%;
+                text-align: center;
+                position: relative;
+                height: calc(168.85px - 109.1px);
+                overflow: hidden;
+
+                .title-text {
+                    font-size: 24px;
+                    margin-bottom: -20px;
+                    display: block;
+                    letter-spacing: 1px;
+                    font-weight: bold;
+                }
+
+                .title-light {
+                    width: auto;
+                    height: 101px;
+                    position: absolute;
+                    bottom: -20px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    z-index: 0;
+                }
+            }
+
+            &.tab-container-1 {
+                .tab-content {
+
+                    .sub-title-group {
+                        width: 100%;
+                        height: 34px;
+                        position: relative;
+                        text-align: center;
+                        margin-top: 10px;
+
+                        .title-text {
+                            font-size: 18px;
+                            line-height: 34px;
+                            letter-spacing: 0.3px;
+                            color: $blue-1;
+                        }
+
+                        .bk {
+                            width: 100%;
+                            height: 34.82px;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            z-index: 0;
+                        }
+                    }
+
+                    .svg {
+                        width: 100%;
+                        height: calc(568.5px - 168.85px - 34.15px);
+                    }
+
+                    .items {
+                        margin-top: calc(661px - 576.6px - 35.971px);
+
+                        .item {
+                            height: 350px;
+
+
+                            .item-2 {
+                                text-align: center;
+                                font-size: 18px;
+                                line-height: 25px;
+                                margin-top: calc(846.4px - 661px - 150px);
+                            }
+                        }
+                    }
+
+                    &.tab-content-left {
+                        margin-left: calc(620px - 454px);
+                        width: 1265.67px;
+
+                        .tab-content-left-1 {
+                            width: inherit;
+
+                            svg {
+                            }
+                        }
+
+                        .tab-content-left-2 {
+                            width: 100%;
+
+                            .items {
+                                width: 100%;
+
+                                .item {
+                                    width: 320px;
+
+                                    .item-1 {
+                                        width: 100%;
+                                        height: 150px;
+
+                                        .text-image {
+                                            height: 37px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &.tab-content-right {
+                        margin-left: calc(2107.44px - 1564.56px - 320px);
+                        width: 1548px;
+
+                        .tab-content-right-1 {
+                            width: inherit;
+
+                            svg {
+                            }
+                        }
+
+                        .tab-content-right-2 {
+                            width: inherit;
+
+                            .items {
+                                margin-left: calc(2091.54px - 2107.44px);
+                                margin-right: calc(2107.9px + 1548px - 3470px - 226.7px);
+
+                                .item {
+                                    width: 226.7px;
+
+                                    .item-1 {
+                                        width: 226.7px;
+                                        height: 180px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+
+                                        .text-image {
+                                            height: 87px;
+                                        }
+                                    }
+
+                                    &:nth-of-type(1) {
+                                        .text-image {
+                                            height: calc(758.5px + 55.6px - 688.8px);
+                                        }
+                                    }
+
+
+                                    .item-2 {
+                                        margin-left: -20px;
+                                        margin-right: -20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

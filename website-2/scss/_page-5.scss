@@ -1,0 +1,167 @@
+﻿ 
+    .right-5 {
+        position: relative;
+        overflow: hidden;
+        font-size: 36px;
+
+        .items {
+            width: 500px;
+            margin-left: 90px;
+
+            .item {
+                cursor: pointer;
+                margin: 15px 50px 15px 0;
+                opacity: 0.3;
+
+                .img-5 {
+                    width: 200px;
+                }
+
+                .text {
+                    font-family: "SourceHanSansCN-Medium";
+                    font-size: 18.52px;
+                }
+
+                &.active, &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+
+        .section-5-2 {
+            margin-left: 130px;
+            width: 1110px;
+
+            .section-5-2-top {
+                .svg {
+                    position: absolute;
+                    top: 175px;
+                    left: 600px;
+                    width: 1360px;
+                }
+
+                .text {
+                    position: absolute;
+                    top: 175px;
+                    left: 600px;
+                    width: 1360px;
+                    text-align: center;
+                    font-size: 41.81px;
+                    display: none;
+
+                    &.active {
+                        display: block;
+                    }
+                }
+            }
+
+            .section-5-2-bottom {
+                height: 484px;
+                margin-top: 140px;
+
+                .vs {
+                    margin-top: 40px;
+                }
+
+                .section-5-2-bottom-item {
+                    width: 495px;
+
+                    .section-5-2-bottom-title {
+                        width: 100%;
+                        height: 100px;
+
+                        &.title-1 {
+                        }
+
+                        &.title-2 {
+                        }
+                    }
+
+                    .outer {
+                        width: 486px;
+                        height: 382px;
+
+                        &.outer-1 {
+                        }
+
+                        &.outer-2 {
+                        }
+
+                        .outer-text {
+                            width: 100%;
+                            height: 100%;
+                            display: none;
+
+                            &.active {
+                                display: flex;
+                            }
+
+                            &.outer-text-left {
+                                color: #D92C2D;
+                                background: url(../img/5-text-1.png) no-repeat 0 0;
+                                background-size: cover;
+
+                                .text-left-1 {
+                                    font-weight: lighter;
+                                    font-size: 32.13px;
+                                    margin-top: -30px;
+                                }
+
+                                .text-left-2 {
+                                    font-weight: lighter;
+                                    font-size: 52.55px;
+                                }
+
+                                .text-left-3 {
+                                    font-weight: lighter;
+                                    font-size: 32.13px;
+                                }
+                            }
+
+                            &.outer-text-right {
+                                color: #ffffff;
+                                background: url(../img/5-text-2.png) no-repeat 0 0;
+                                background-size: cover;
+
+                                .text-right-1 {
+                                    font-weight: lighter;
+                                    font-size: 32.13px;
+                                    margin-top: -60px;
+                                    margin-bottom: 20px;
+                                    font-family: "SourceHanSansCN-Regular";
+                                }
+
+                                .text-right-2 {
+                                    font-family: "SKFChevinDemiBold";
+                                    font-size: 53.55px;
+                                    font-weight: normal;
+                                }
+
+                                .text-right-3 {
+                                    font-weight: lighter;
+                                    font-size: 32.13px;
+                                    font-family: "SourceHanSansCN-Regular";
+                                }
+
+                                .text-right-4 {
+                                    font-family: "SKFChevinDemiBold";
+                                    font-size: 53.55px;
+                                    font-weight: normal;
+                                }
+
+                                .text-right-5 {
+                                    font-weight: lighter;
+                                    font-size: 32.13px;
+                                    font-family: "SourceHanSansCN-Regular";
+                                }
+                            }
+                        }
+                    }
+
+                    &.section-5-2-bottom-1 {
+                    }
+                }
+            }
+        }
+    }
+ 

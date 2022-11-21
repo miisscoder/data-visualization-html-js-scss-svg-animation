@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 320 320">
+  <defs>
+    <style>.cls-1{isolation:isolate;}.cls-2{mix-blend-mode:screen;}</style>
+    <radialGradient id="未命名的渐变_2164" cx="983.49" cy="-8350.97" r="19.59" 
+                    gradientTransform="matrix(0, -8.17, -8.17, 0, -68030.33, 8190.73)" 
+                    gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#fff" />
+      <stop offset="0.11" stop-color="#fdfffd"/>
+      <stop offset="0.12" stop-color="#f5fdf6"/>
+      <stop offset="0.13" stop-color="#e7fbea"/>
+      <stop offset="0.14" stop-color="#d4f7da"/>
+      <stop offset="0.15" stop-color="#bbf3c4"/>
+      <stop offset="0.16" stop-color="#9ceda9"/>
+      <stop offset="0.17" stop-color="#78e789"/>
+      <stop offset="0.18" stop-color="#4edf66"/>
+      <stop offset="0.19" stop-color="#41dd5a"/> 
+      <stop offset="0.20" stop-color="#3ac651"  stop-opacity="0.8"/>
+      <stop offset="0.90" stop-color="#3ac651"  stop-opacity="0.0"/>
+      <stop offset="1"  stop-color="#3ac651"  stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <filter id="blurMe">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="7" />
+  </filter>
+  <g class="cls-1">
+    <g id="图层_2" data-name="图层 2">
+      <g id="图层_3" data-name="图层 3">
+        <path class="cls-2" d="M160,0A160,160,0,1,0,320,160,160,160,0,0,0,160,0Z"
+               filter="url(#blurMe)" fill="url(#未命名的渐变_2164)" />
+      </g>
+    </g>
+  </g>
+</svg>

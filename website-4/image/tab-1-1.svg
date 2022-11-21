@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 91.04 63.44" >
+  <defs>
+    <style>.cls-1{isolation:isolate;}.cls-10,.cls-11,.cls-13,.cls-14,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6,.cls-7,.cls-8,.cls-9{mix-blend-mode:screen;}.cls-2{fill:url(#未命名的渐变_145);}.cls-3{fill:url(#未命名的渐变_145-2);}.cls-4{fill:url(#未命名的渐变_145-3);}.cls-5{fill:url(#未命名的渐变_145-4);}.cls-6{fill:url(#未命名的渐变_145-5);}.cls-7{fill:url(#未命名的渐变_145-6);}.cls-8{fill:url(#未命名的渐变_145-7);}.cls-9{fill:url(#未命名的渐变_145-8);}.cls-10{fill:url(#未命名的渐变_145-9);}.cls-11{fill:url(#未命名的渐变_145-10);}.cls-12{fill:#11263a;opacity:0.7;}.cls-13,.cls-14,.cls-16{fill:none;stroke-miterlimit:10;}.cls-13,.cls-14{stroke:#00dcff;}.cls-13{stroke-width:0.1px;}.cls-14{stroke-width:0.1px;}.cls-15{font-size:2.6px;fill:#fff;font-family:SourceHanSansCN-Light-GBpc-EUC-H, Source Han Sans CN;}.cls-16{stroke:#fff;stroke-width:0.13px;}</style>
+    <radialGradient id="未命名的渐变_145" cx="62.16" cy="39.06" r="7"  
+                    gradientUnits="userSpaceOnUse">
+      <stop offset="0.05" stop-color="#fff"/>
+      <stop offset="0.07" stop-color="#fdffff"/>
+      <stop offset="0.07" stop-color="#f5feff"/>
+      <stop offset="0.08" stop-color="#e7fcff"/>
+      <stop offset="0.08" stop-color="#d4f9ff"/>
+      <stop offset="0.09" stop-color="#bbf6ff"/>
+      <stop offset="0.09" stop-color="#9cf1ff"/>
+      <stop offset="0.09" stop-color="#77ecff"/>
+      <stop offset="0.1" stop-color="#4de7ff"/>
+      <stop offset="0.1" stop-color="#1ee0ff"/>
+      <stop offset="0.1" stop-color="#00dcff"/>
+      <stop offset="0.11" stop-color="#00d4f6"/>
+      <stop offset="0.14" stop-color="#00adc8"/>
+      <stop offset="0.18" stop-color="#00879d"/>
+      <stop offset="0.23" stop-color="#006777" stop-opacity="0.6"/>
+      <stop offset="0.28" stop-color="#004b57" stop-opacity="0.3"/>
+      <stop offset="0.33" stop-color="#00333b" stop-opacity="0.1"/>
+      <stop offset="0.39" stop-color="#002025" stop-opacity="0"/>
+      <stop offset="0.46" stop-color="#001214" stop-opacity="0"/>
+      <stop offset="0.54" stop-color="#000709" stop-opacity="0"/>
+      <stop offset="0.66" stop-color="#000202" stop-opacity="0"/>
+      <stop offset="1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="未命名的渐变_145-2" cx="60.92" cy="38.38" r="7" 
+                    xlink:href="#未命名的渐变_145"/>
+    <radialGradient id="未命名的渐变_145-3" cx="60.92" cy="39.62" r="7" 
+                    xlink:href="#未命名的渐变_145"/>
+    <radialGradient id="未命名的渐变_145-4" cx="52.51" cy="41.28" r="7" 
+                    xlink:href="#未命名的渐变_145"/>
+    <radialGradient id="未命名的渐变_145-5" cx="61.22" cy="45.14" r="7" 
+                    xlink:href="#未命名的渐变_145"/>
+    <radialGradient id="未命名的渐变_145-6" cx="63.87" cy="43.67" r="7" 
+                    xlink:href="#未命名的渐变_145"/>
+    <radialGradient id="未命名的渐变_145-7" cx="55.45" cy="48.35" r="7" 
+                    xlink:href="#未命名的渐变_145"/>
+    <radialGradient id="未命名的渐变_145-8" cx="42.29" cy="7.92" r="7" 
+                    xlink:href="#未命名的渐变_145"/>
+    <radialGradient id="未命名的渐变_145-9" cx="56.78" cy="10.74" r="7" 
+                    xlink:href="#未命名的渐变_145"/>
+    <radialGradient id="未命名的渐变_145-10" cx="47.21" cy="21.42" r="7" 
+                    xlink:href="#未命名的渐变_145"/>
+  </defs>
+  <g class="cls-1">
+    <g id="图层_2" data-name="图层 2">
+      <g id="图层_10" data-name="图层 10">
+        <circle class="cls-2" cx="62.16" cy="39.06" r="7">
+          <animate attributeName="opacity" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <circle class="cls-3" cx="60.92" cy="38.38" r="7">
+          <animate attributeName="opacity" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <circle class="cls-4" cx="60.92" cy="39.62" r="7">
+          <animate attributeName="opacity" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <circle class="cls-5" cx="52.51" cy="41.28" r="7">
+          <animate attributeName="opacity" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <circle class="cls-6" cx="61.22" cy="45.14" r="7">
+          <animate attributeName="opacity" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <circle class="cls-7" cx="63.87" cy="43.67" r="7">
+          <animate attributeName="opacity" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <circle class="cls-8" cx="55.45" cy="48.35" r="7">
+          <animate attributeName="opacity" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <circle class="cls-9" cx="42.29" cy="7.92" r="7">
+          <animate attributeName="opacity" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <circle class="cls-10" cx="56.78" cy="10.74" r="7">
+          <animate attributeName="opacity" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <circle class="cls-11" cx="47.21" cy="21.42" r="7">
+          <animate attributeName="opacity" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <rect class="cls-12" x="38.56" y="57.48" width="52.44" height="4.8"/>
+        <rect class="cls-13" x="38.56" y="57.48" width="52.44" height="4.8"/>
+        <rect class="cls-12" x="6.99" y="48.66" width="44.83" height="4.8"/>
+        <rect class="cls-14" x="6.99" y="48.66" width="44.83" height="4.8"/>
+        <rect class="cls-12" x="53.46" y="28.83" width="37.53" height="4.8"/>
+        <rect class="cls-14" x="53.46" y="28.83" width="37.53" height="4.8"/>
+        <rect class="cls-12" x="6.29" y="22.08" width="34.86" height="4.8"/>
+        <rect class="cls-14" x="6.29" y="22.08" width="34.86" height="4.8"/>
+        <rect class="cls-12" x="0.05" y="0.05" width="32.36" height="4.8"/>
+        <rect class="cls-14" x="0.05" y="0.05" width="32.36" height="4.8"/>
+        <rect class="cls-12" x="12.09" y="38.88" width="34.57" height="4.8"/>
+        <rect class="cls-14" x="12.09" y="38.88" width="34.57" height="4.8"/>
+        <rect class="cls-12" x="65.99" y="41.27" width="25.01" height="4.8"/>
+        <rect class="cls-14" x="65.99" y="41.27" width="25.01" height="4.8"/>
+        <rect class="cls-12" x="53.46" y="22.91" width="37.53" height="4.8"/>
+        <rect class="cls-14" x="53.46" y="22.91" width="37.53" height="4.8"/>
+        <text class="cls-15" transform="translate(40.07 60.72)">斯凯孚中国新昌球轴承生产基地及研发中心</text>
+        <text class="cls-15" transform="translate(8.61 51.89)">斯凯孚中国小圆锥滚子轴承生产基地</text>
+        <text class="cls-15" transform="translate(57.93 32.07)">斯凯孚汽车轴承生产基地</text>
+        <text class="cls-15" transform="translate(8.12 25.31)">斯凯孚商用车轴承生产基地</text>
+        <text class="cls-15" transform="translate(1.93 3.28)">斯凯孚铁路轴承生产基地</text>
+        <text class="cls-15" transform="translate(15.08 42.11)">斯凯孚密封系统生产基地</text>
+        <text class="cls-15" transform="translate(66.79 44.5)">斯凯孚宁波生产基地</text>
+        <text class="cls-15" transform="translate(55.33 26.14)">斯凯孚中国绿色智能科技中心</text>
+        <line class="cls-16" x1="63.87" y1="43.67" x2="65.99" y2="43.67"/>
+        <polyline class="cls-16" points="61.22 45.14 67.87 51.79 67.87 57.48"/>
+        <polyline class="cls-16" points="61.82 39.06 64.61 36.26 64.61 33.63"/>
+        <polyline class="cls-16" points="55.45 48.35 52.96 50.84 51.82 50.84"/>
+        <polyline class="cls-16" points="56.87 10.74 59.47 8.14 59.47 4.85"/>
+        <polyline class="cls-16" points="42.29 7.92 36.71 2.33 32.41 2.33"/>
+        <polyline class="cls-16" points="47.21 21.42 44.15 24.48 41.15 24.48"/>
+        <line class="cls-16" x1="52.51" y1="41.28" x2="46.66" y2="41.28"/>
+        <rect class="cls-12" x="56.13" y="0.05" width="34.86" height="4.8"/>
+        <rect class="cls-14" x="56.13" y="0.05" width="34.86" height="4.8"/>
+        <text class="cls-15" transform="translate(57.7 3.29)">斯凯孚中大型轴承生产基地</text>
+      </g>
+    </g>
+  </g>
+</svg>

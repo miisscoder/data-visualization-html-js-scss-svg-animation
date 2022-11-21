@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2533.28 937.5">
+  <defs>
+    <style>.cls-1{fill:none;stroke:#00dcff;stroke-miterlimit:10;stroke-width:1.42px;}.cls-2{fill:#fff;}.cls-3{fill:#00dcff;}</style>
+  </defs>
+  <g id="图层_2" data-name="图层 2">
+    <g id="图层_2-2" data-name="图层 2">
+      <path class="cls-1" d="M2492.57,644.42h-2255l-40-40V40.71l40-40h2255l40,40V604.42Z"/>
+      <path class="cls-1" d="M2492.57,936.79h-2255l-40-40V684.42l40-40h2255l40,40V896.79Z"/>
+      <path class="cls-1" d="M197.62,209.64H135.88l-40,40V489.55"/>
+      <path class="cls-1" d="M197.62,792.32H135.88l-40-40V473.84H5.74"/>
+      <circle class="cls-2" cx="6.04" cy="473.84" r="5.33" transform="translate(-466.09 433.16) rotate(-84.34)"/>
+      <path class="cls-3" d="M6,467.81a6,6,0,1,1-6,6,6,6,0,0,1,6-6Zm0,10.65a4.62,4.62,0,1,0-4.62-4.62A4.62,4.62,0,0,0,6,478.46Z"/>
+    </g>
+  </g>
+</svg>

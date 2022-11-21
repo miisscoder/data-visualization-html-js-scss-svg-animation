@@ -1,0 +1,282 @@
+﻿.right-4 {
+    position: relative;
+
+    .btn-back {
+        position: absolute;
+        bottom: 40px;
+        right: 80px;
+        z-index: 7;
+        cursor: pointer;
+    }
+
+    .widget-circle {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        background: url(../img/jt.png) no-repeat 0 0;
+        background-size: 140% 140%;
+        background-position: center center;
+
+        &:hover, &:hover p, &:hover img {
+            -webkit-animation-play-state: paused !important;
+            -moz-animation-play-state: paused !important;
+            animation-play-state: paused !important;
+        }
+
+        p {
+            position: absolute;
+            width: 200px;
+            text-align: center;
+            font-size: 45px;
+            font-weight: lighter;
+
+            &.p-1 {
+                top: -250px;
+                left: calc(50% - 100px);
+            }
+
+            &.p-2 {
+                right: -250px;
+                top: 24.7%;
+            }
+
+            &.p-3 {
+                bottom: calc(-200px / 1.4);
+                right: calc(13.4% - 200px / 1.4);
+            }
+
+            &.p-4 {
+                bottom: calc(-200px / 1.4);
+                left: calc(13.4% - 250px / 1.4);
+            }
+
+            &.p-5 {
+                left: -250px;
+                top: 24.7%;
+            }
+        }
+    }
+
+    .img-icon {
+        position: absolute;
+        width: 130px;
+        height: 130px;
+        z-index: 3;
+        cursor: pointer;
+        transition: left ease 1s;
+
+        &.img-4-1 {
+            top: -65px;
+            left: calc(50% - 65px);
+        }
+
+        &.img-4-2 {
+            left: calc(100% - 130px + 65px);
+            top: 24.7%;
+        }
+
+        &.img-4-3 {
+            bottom: calc(-65px / 2);
+            left: calc(100% - 130px - 13.4% + 65px / 2);
+        }
+
+        &.img-4-4 {
+            bottom: calc(-65px / 2);
+            left: calc(13.4% - 65px / 2);
+        }
+
+        &.img-4-5 {
+            left: -65px;
+            top: 24.7%;
+        }
+    }
+
+    .img-4-bk {
+        position: absolute;
+        z-index: 1;
+        width: 240px;
+        height: 240px;
+
+        &.img-4-bk-1 {
+            top: -120px;
+            left: calc(50% - 120px);
+        }
+
+        &.img-4-bk-2 {
+            right: -120px;
+            top: calc(24.7% - 120px + 65px);
+        }
+
+        &.img-4-bk-3 {
+            bottom: calc( -120px / 1.4);
+            right: calc(13.4% - 120px / 1.4);
+        }
+
+        &.img-4-bk-4 {
+            bottom: calc( -120px / 1.4);
+            left: calc(13.4% - 120px / 1.4);
+        }
+
+        &.img-4-bk-5 {
+            left: -120px;
+            top: calc(24.7% - 120px + 65px);
+        }
+    }
+
+
+    .section-0 {
+        width: 100%;
+        height: 100%;
+        background: url(../img/4-bk.jpg) no-repeat 0 0;
+        background-size: cover;
+        position:absolute;
+        z-index:-1;
+    }
+
+    .section-des {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: none;
+
+        .title {
+            position: absolute;
+            font-size: 44.44px;
+            color: #00DCFF;
+            left: 947px;
+            top: 269px;
+        }
+
+        .text {
+            position: absolute;
+            font-size: 30px;
+            left: 947px;
+            top: 490px;
+            line-height: 1.7;
+
+            .sub-title {
+                font-size: 37px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .circle-4-des {
+        position: absolute;
+        width: 660px;
+        top: calc(537px - 330px);
+        left: calc(26.3% - 330px);
+        display: block;
+    }
+
+    .line-4-des {
+        position: absolute;
+        top: 420px;
+        left: 36%;
+        z-index: 4;
+    }
+
+    &[data-status=""] {
+        .section-0 {
+            display: block;
+        }
+
+        .widget-circle {
+            position: relative;
+        }
+
+        .section-des, .btn-back, .line-4-des, .circle-4-des, .img-4-des {
+            display: none;
+        }
+    }
+
+    &[data-status="des"] {
+        .section-0, .widget-circle p {
+            display: none;
+        }
+
+        .widget-circle {
+            position: absolute;
+            animation: none;
+            width: 100%;
+            height: 100%;
+            background: none;
+        }
+
+        .widget-circle, .widget-circle p, .widget-circle img {
+            -webkit-animation-play-state: paused !important;
+            -moz-animation-play-state: paused !important;
+            animation-play-state: paused !important;
+        }
+
+
+        .btn-back, .line-4-des, .circle-4-des {
+            display: block;
+        }
+
+        .img-icon {
+            display: none;
+            width: 170px;
+            height: 170px;
+            animation: none;
+
+            &.active {
+                display: block;
+                top: calc(268px - 170px / 2);
+                left: calc(38.5% - 170px / 2); 
+            }
+        }
+
+        .img-4-bk {
+            display: none;
+        }
+
+        .img-4-des {
+            display: none;
+            width: 410px;
+            height: 410px;
+            opacity: 0.8;
+            border-radius: 50%;
+
+
+            &.active {
+                display: block;
+                position: absolute;
+                top: 537px;
+                left: 26.3%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+
+    &[data-active="1"] {
+        .section-des-1, .img-icon.img-4-1, .img-4-des.img-4-des-1 {
+            display: block;
+        }
+    }
+
+    &[data-active="2"] {
+        .section-des-2, .img-icon.img-4-2, .img-4-des.img-4-des-2 {
+            display: block;
+        }
+    }
+
+    &[data-active="3"] {
+        .section-des-3, .img-icon.img-4-3, .img-4-des.img-4-des-3 {
+            display: block;
+        }
+    }
+
+    &[data-active="4"] {
+        .section-des-4, .img-icon.img-4-4, .img-4-des.img-4-des-4 {
+            display: block;
+        }
+    }
+
+    &[data-active="5"] {
+        .section-des-5, .img-icon.img-4-5, .img-4-des.img-4-des-5 {
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,81 @@
+﻿
+.open-horizontal {
+    animation: form-entry-horizontal 2s ease-in-out forwards;
+}
+.open-diagonal {
+    animation: form-entry-diagonal 2s ease-in-out forwards;
+}
+
+.delay-show {
+    animation: content-show 2.5s ease-in-out 0s forwards;
+}
+
+
+@keyframes form-entry-horizontal {
+    0% {
+        height: 100%;
+        width: 0;
+        opacity: 0;
+        padding: 0
+    }
+
+    20% {
+        height: 100%;
+        width: 0;
+        opacity: 0;
+        padding: 0
+    }
+
+    40% {
+        width: 0;
+        height: 100%;
+        opacity: 1;
+        padding: 0;
+    }
+
+    100% {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+@keyframes form-entry-diagonal {
+    0% {
+        height: 0;
+        width: 0;
+        opacity: 0; 
+    }
+
+    20% {
+        height: 0; 
+        width: 0;
+        opacity: 0; 
+    }
+
+    40% {
+        width: 0;
+        height: 0; 
+        opacity: 1; 
+    }
+
+    100% {
+        height: 100%;
+        width: 100%
+    }
+}
+
+@keyframes content-show {
+    0% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 0;
+    }
+
+
+    100% {
+        opacity: 1;
+    }
+}

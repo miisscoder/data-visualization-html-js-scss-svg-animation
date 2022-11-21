@@ -1,0 +1,408 @@
+﻿@import '_variables.scss';
+
+body.page-2 {
+
+    .main {
+
+        .tab-container {
+            &.tab-container-2 {
+                .tab-content {
+
+                    .sub-title-group {
+                        width: 100%;
+                        height: 34px;
+                        position: relative;
+                        text-align: center;
+
+                        .title-text {
+                            font-size: 18px;
+                            letter-spacing: 0.3px;
+                            color: $blue-1;
+                        }
+
+                        .bk {
+                            width: 100%;
+                            height: 34.82px;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            z-index: 0;
+                        }
+                    }
+
+                    svg {
+                        width: 100%;
+                        height: calc(568.5px - 168.85px - 34.15px);
+                    }
+
+                    &.tab-content-left {
+                        margin-left: calc(550px - 453.38px);
+                        width: 2100px;
+
+
+                        .tab-content-left-title {
+                            width: 2100px;
+                            height: 42px;
+                            background-color: rgba($blue-1, 0.2);
+                            font-size: 38px;
+                            line-height: 42px;
+                            color: $blue-1;
+                            text-align: center;
+                            font-weight: bold;
+                            margin-bottom: calc(137.48px - 64.45px - 42px);
+                        }
+
+                        .tab-content-left-content {
+                            text-align: center;
+
+                            .tab-content-left-left {
+                                width: 1306.28px;
+                                background: url(../image/2-2-bk-1.svg) no-repeat 0 0;
+                                margin-left: 6px;
+
+                                .items-1 {
+                                    margin-bottom: 10px;
+
+                                    .item {
+                                        height: 189px;
+                                        padding-top: 40px;
+
+                                        &:first-of-type {
+                                            width: calc(923.7px - 589px);
+                                            margin-right: calc(954.4px - 923.7px);
+                                            margin-left: 30px;
+                                        }
+
+                                        .text {
+                                            color: $blue-1;
+                                            font-size: 28px;
+                                            line-height: 48px;
+
+                                            .text-white {
+                                                font-size: 37px;
+                                            }
+                                        }
+                                    }
+
+                                    .equal {
+                                        color: $blue-1;
+                                        font-size: 24px;
+                                        font-weight: bold;
+                                        margin: 0 calc(1494.5px - 1252.9px - 210px);
+                                    }
+                                }
+
+                                .items-2 {
+                                    padding: 0 calc(592.25px - 556px);
+                                    margin-top: 30px;
+                                    margin-bottom: 30px;
+
+                                    .item {
+                                        .item-title {
+                                            width: 341.5px;
+                                            height: 34.15px;
+                                            line-height: 34.15px;
+                                            background: url(../image/bk-4.png) 0 0 no-repeat;
+                                            background-size: 341.5px 34.15px;
+                                            font-size: 18.4px;
+                                            color: $blue-1;
+                                        }
+
+                                        &:nth-of-type(2) {
+                                            .item-title {
+                                                width: 421.5px;
+                                                background: url(../image/bk-5.png) 0 0 no-repeat;
+                                                background-size: 421.5px 34.15px;
+                                            }
+                                        }
+
+                                        svg, .svg {
+                                            display: block;
+                                            margin: 20px auto 0;
+                                        }
+
+                                        &:nth-of-type(1) {
+                                            svg, .svg {
+                                                width: 296px;
+                                            }
+                                        }
+
+                                        &:nth-of-type(2) {
+                                            svg, .svg {
+                                                width: 429px;
+                                            }
+                                        }
+
+                                        &:nth-of-type(3) {
+                                            svg, .svg {
+                                                width: 296px;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .items-3 {
+                                    padding: 20px calc(604.2px - 556px);
+
+                                    .item {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: flex-start;
+                                        align-items: center;
+
+                                        .image {
+                                            width: 186.98px;
+                                            height: 111px;
+
+                                            .center-image {
+                                                width: calc(100% - 6px);
+                                                height: calc( 100% - 6px);
+                                            }
+                                        }
+
+                                        .text {
+                                            margin-top: 5px;
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
+
+                                .items-4 {
+                                    margin-bottom: 10px;
+
+                                    .item {
+                                        width: 366px;
+                                        height: 46px;
+                                        line-height: 46px;
+                                        font-size: 20px;
+                                        margin: 0 calc((1277.88px - 366px - 785.75px) / 2);
+                                        background: url(../image/bk-6.png) no-repeat 0 0;
+                                        background-size: 366px 46px;
+
+                                        .text-white {
+                                        }
+                                    }
+                                }
+                            }
+
+                            .tab-content-left-right {
+                                width: 720px;
+                                margin-left: calc(1930px - 1306px - 556px);
+
+                                .sub-text {
+                                    font-size: 15px;
+                                    line-height: 1.3;
+                                    text-align: left;
+                                    margin-top: 10px;
+                                }
+
+                                .video {
+                                    width: 720px;
+                                    height: 308.67px;
+                                    margin-top: 15px;
+                                    margin-bottom: 45px;
+                                    background: url(../image/video.jpg) no-repeat 0 0;
+                                    background-size: 720px 308.67px;
+                                }
+
+                                .items-1 {
+                                    margin-top: 10px;
+                                    margin-bottom: 30px;
+
+                                    .item {
+                                        .image {
+                                            width: 180px;
+                                            height: 80px;
+                                        }
+
+                                        .text {
+                                            width: 180px;
+                                            height: 24px;
+                                            line-height: 24px;
+                                            font-size: 12px;
+                                            background: url(../image/bk-6.png) no-repeat 0 0;
+                                            background-size: 180px 24px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &.tab-content-right {
+                        margin-left: calc(2750px - 2100px - 550px);
+                        width: 950px;
+
+                        .tab-content-right-title {
+                            width: 950px;
+                            height: 42px;
+                            background-color: rgba($blue-1, 0.2);
+                            font-size: 38px;
+                            line-height: 42px;
+                            color: $blue-1;
+                            text-align: center;
+                            font-weight: bold;
+                            margin-bottom: 31.03px;
+                        }
+
+                        .items-1 {
+                            margin-bottom: 30px;
+                            margin-top: 15px;
+
+                            .item {
+                                position: relative;
+
+                                .sub-title {
+                                    background: url(../image/bk-7.png) no-repeat 0 0;
+                                    background-size: 479.2px 30px;
+                                    width: 100%;
+                                    height: 30px;
+                                    text-align: center;
+                                    font-size: 18.56px;
+                                    line-height: 30px;
+                                    color: $blue-1;
+                                }
+
+                                svg, .svg {
+                                    width: 100%;
+                                    display: block;
+                                    margin: 10px auto 0;
+                                }
+
+                                &:nth-of-type(1) {
+                                    width: 479.2px;
+                                }
+
+                                &:nth-of-type(2) {
+                                    width: 400px;
+                                    height: 200px;
+
+                                    .sub-title {
+                                        background: url(../image/bk-7.png) no-repeat 0 0;
+                                        background-size: 398px 30px;
+                                    }
+
+                                    svg, .svg {
+                                        width: 81%;
+                                        display: block;
+                                        margin: 25px calc(10% + 2.5px) 0 calc(10% - 2.5px);
+                                    }
+
+                                    &:after {
+                                        width: 400px;
+                                        height: 100%;
+                                        content: '';
+                                        display: block;
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        right: 0;
+                                        bottom: 0;
+                                        background: url(../image/ditu.png) no-repeat 0 0;
+                                        background-size: 400px auto;
+                                        background-position-y: bottom;
+                                    }
+                                }
+                            }
+                        }
+
+                        .items-2 {
+                            margin-bottom: 30px;
+                            margin-top: 5px;
+
+                            .item {
+                                width: 190px;
+
+                                .image {
+                                    width: 190px;
+                                    height: 111px;
+
+                                    .center-image {
+                                        width: calc(100% - 6px);
+                                        height: calc(100% - 6px);
+                                    }
+                                }
+
+                                .text {
+                                    width: 100%;
+                                    height: 44px;
+                                    background-image: linear-gradient(to top, rgba(#ffffff, 0.2), rgba(#ffffff, 0));
+                                    background-image: -moz-linear-gradient(bottom, rgba(#ffffff, 0.2), rgba(#ffffff, 0));
+                                    background-image: -webkit-gradient(linear, bottom, from(rgba(#ffffff, 0.2)), to(rgba(#ffffff, 0)));
+                                    background-image: -webkit-linear-gradient(bottom, rgba(#ffffff, 0.2), rgba(#ffffff, 0));
+                                    background-image: -o-linear-gradient(bottom, rgba(#ffffff, 0.2), rgba(#ffffff, 0));
+                                    font-size: 13px;
+                                    text-align: center;
+                                    line-height: 18px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin-top: 5px;
+                                }
+
+                                &:nth-of-type(1) {
+                                    width: 257px;
+
+                                    .image {
+                                        width: 257px;
+                                        height: 144.8px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .items-3 {
+                            margin-top: 30px;
+
+                            .item {
+                                .title {
+                                    background: url(../image/bk-7.png) no-repeat 0 0;
+                                    background-size: 233.46px 28px;
+                                    width: 233.46px;
+                                    height: 28px;
+                                    line-height: 28px;
+                                    color: $blue-1;
+                                    text-align: center;
+                                    font-size: 18px;
+                                }
+
+                                .image-item {
+                                    width: 238px;
+                                    height: 115px;
+                                    margin-top: 15px;
+                                    margin-bottom: 15px;
+
+                                    .center-image {
+                                        width: calc(100% - 6px);
+                                        height: calc(100% - 6px);
+                                    }
+                                }
+
+                                .text {
+                                    font-size: 13.5px;
+                                    width: 235px;
+                                    height: 95px;
+                                    line-height: 21px;
+                                    padding: 7px;
+                                    background: url(../image/bk-9.png) no-repeat 0 0;
+                                    background-size: 235px 95px;
+
+                                    .text-blue {
+                                        font-size: 16px;
+                                        font-weight: bold;
+
+                                        .b {
+                                            font-size: 18px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+ 

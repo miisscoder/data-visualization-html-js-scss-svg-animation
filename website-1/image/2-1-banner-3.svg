@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 649.22 162.69">
+  <defs>
+    <style>.cls-1{isolation:isolate;}.cls-2{opacity:0.2;}.cls-10,.cls-11,.cls-12,.cls-13,.cls-14,.cls-15,
+    .cls-16,.cls-17,.cls-18,.cls-19,.cls-20,.cls-21,.cls-22,.cls-23,.cls-24,.cls-3,.cls-4,.cls-5,.cls-6,.cls-7,
+    .cls-8,.cls-9{fill:#00dcff;}.cls-4{opacity:0.95;}.cls-5{opacity:0.9;}.cls-6{opacity:0.86;}.cls-7{opacity:0.81;}
+    .cls-8{opacity:0.76;}.cls-9{opacity:0.71;}.cls-10{opacity:0.67;}.cls-11{opacity:0.62;}.cls-12{opacity:0.57;}
+    .cls-13{opacity:0.52;}.cls-14{opacity:0.48;}.cls-15{opacity:0.43;}.cls-16{opacity:0.38;}.cls-17{opacity:0.33;}
+    .cls-18{opacity:0.29;}.cls-19{opacity:0.24;}.cls-20{opacity:0.19;}.cls-21{opacity:0.14;}.cls-22{opacity:0.1;}
+    .cls-23{opacity:0.05;}.cls-24{opacity:0;}.cls-25,.cls-26{fill:none;stroke-miterlimit:10;}
+    .cls-25{stroke:#31756c;stroke-width:4.79px;mix-blend-mode:color-dodge;}.cls-26{stroke:#00dcff;stroke-width:6.78px;}
+    .cls-27{opacity:0.6;}.cls-28,.cls-29,.cls-30,.cls-31,.cls-32,.cls-33{mix-blend-mode:screen;}
+    .cls-30,.cls-33{fill-rule:evenodd;}
+    .cls-34{font-size:66px;fill:#fff;font-family:SKFChevin-Bold, SKF Chevin;font-weight:700;}
+  </style>
+    <filter id="blurMe">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="7"></feGaussianBlur>
+    </filter>
+</defs>
+  <g class="cls-1">
+    <g id="图层_2" data-name="图层 2">
+      <g id="图层_2-2" data-name="图层 2">
+        <g class="cls-2">
+          <polygon class="cls-3" points="36.66 93.8 127.06 3.39 233 3.39 627.96 3.39 627.96 160.29 36.66 160.3 36.66 93.8"/>
+          <polygon class="cls-4" points="38.6 94.6 127.86 5.33 225.99 5.33 626.02 5.33 626.02 158.36 38.6 158.36 38.6 94.6"/>
+          <polygon class="cls-5" points="40.54 95.4 128.66 7.27 218.98 7.27 624.08 7.27 624.08 156.42 40.54 156.42 40.54 95.4"/>
+          <polygon class="cls-6" points="42.48 96.2 129.47 9.21 211.97 9.21 622.14 9.21 622.14 154.48 42.48 154.48 42.48 96.2"/>
+          <polygon class="cls-7" points="44.41 97.01 130.27 11.14 204.97 11.14 620.2 11.14 620.2 152.54 44.41 152.54 44.41 97.01"/>
+          <polygon class="cls-8" points="46.35 97.81 131.07 13.08 197.96 13.08 618.26 13.08 618.26 150.6 46.35 150.61 46.35 97.81"/>
+          <polygon class="cls-9" points="48.29 98.61 131.88 15.02 190.95 15.02 616.33 15.02 616.33 148.67 48.29 148.67 48.29 98.61"/>
+          <polygon class="cls-10" points="50.23 99.42 132.68 16.96 183.95 16.96 614.39 16.96 614.39 146.73 50.23 146.73 50.23 99.42"/>
+          <polygon class="cls-11" points="52.16 100.22 133.48 18.9 176.94 18.9 612.45 18.9 612.45 144.79 52.16 144.79 52.16 100.22"/>
+          <polygon class="cls-12" points="54.1 101.02 134.28 20.83 169.93 20.83 610.51 20.83 610.51 142.85 54.1 142.85 54.1 101.02"/>
+          <polygon class="cls-13" points="56.04 101.82 135.09 22.77 162.93 22.77 608.58 22.77 608.58 140.91 56.04 140.92 56.04 101.82"/>
+          <polygon class="cls-14" points="57.98 102.63 135.89 24.71 155.92 24.71 606.64 24.71 606.64 138.98 57.98 138.98 57.98 102.63"/>
+          <polygon class="cls-15" points="59.92 103.43 136.69 26.65 148.91 26.65 604.7 26.65 604.7 137.04 59.92 137.04 59.92 103.43"/>
+          <polygon class="cls-16" points="61.85 104.23 137.5 28.59 141.91 28.59 602.76 28.59 602.76 135.1 61.85 135.1 61.85 104.23"/>
+          <polygon class="cls-17" points="63.79 105.03 138.3 30.52 134.9 30.52 600.82 30.52 600.82 133.16 63.79 133.16 63.79 105.03"/>
+          <polygon class="cls-18" points="65.73 105.84 139.1 32.46 127.89 32.46 598.88 32.46 598.88 131.22 65.73 131.23 65.73 105.84"/>
+          <polygon class="cls-19" points="67.67 106.64 139.9 34.4 120.88 34.4 596.95 34.4 596.95 129.29 67.67 129.29 67.67 106.64"/>
+          <polygon class="cls-20" points="69.61 107.44 140.71 36.34 113.88 36.34 595.01 36.34 595.01 127.35 69.61 127.35 69.61 107.44"/>
+          <polygon class="cls-21" points="71.55 108.25 141.51 38.28 106.87 38.28 593.07 38.28 593.07 125.41 71.55 125.41 71.55 108.25"/>
+          <polygon class="cls-22" points="73.48 109.05 142.31 40.21 99.86 40.21 591.13 40.21 591.13 123.47 73.48 123.47 73.48 109.05"/>
+          <polygon class="cls-23" points="75.42 109.85 143.11 42.15 92.86 42.15 589.19 42.15 589.19 121.54 75.42 121.54 75.42 109.85"/>
+          <polygon class="cls-24" points="77.36 119.6 77.36 110.65 143.92 44.09 85.85 44.09 587.26 44.09 587.26 119.6 77.36 119.6"/>
+        </g>
+        <polygon class="cls-25" points="36.66 93.8 127.06 3.39 258.61 3.39 627.96 3.39 627.96 160.29 36.66 160.3 36.66 93.8"/>
+        <polyline class="cls-26" points="104.74 25.71 127.06 3.39 216.7 3.39"/>
+        <polyline class="cls-26" points="36.66 161.15 36.66 93.8 59.05 71.41"/>
+        <polyline class="cls-26" points="582.16 3.39 627.96 3.39 627.96 44.09"/>
+        <g class="cls-27">
+          <ellipse class="cls-28" cx="233.95" cy="90.3" rx="233.96" ry="49.27" 
+                   opacity="0.3" fill="#1039aa" filter="url(#blurMe)"
+                   transform="translate(-0.81 2.13) rotate(-0.52)"/>
+          <ellipse class="cls-29" cx="233.95" cy="90.3" rx="177.84" ry="37.45" 
+                   opacity="0.3" fill="#092161" filter="url(#blurMe)"
+                   transform="matrix(1, -0.01, 0.01, 1, -0.81, 2.13)"/>
+          <path class="cls-30" 
+                 opacity="0.3" fill="#1856ff" filter="url(#blurMe)"
+                d="M233.73,66.12c63.42-.58,114.92,9.78,115,23.14s-51.19,24.64-114.6,25.22-114.91-9.79-115-23.14S170.32,66.7,233.73,66.12Z"/>
+          <ellipse class="cls-31" cx="415.27" cy="89.77" rx="233.96" ry="49.27" 
+                   opacity="0.3" fill="#1039aa" filter="url(#blurMe)"
+                   transform="matrix(1, -0.01, 0.01, 1, -0.8, 3.77)"/>
+          <ellipse class="cls-32" cx="415.27" cy="89.77" rx="177.84" ry="37.45" 
+                   opacity="0.3" fill="#092161" filter="url(#blurMe)"
+                   transform="translate(-0.8 3.77) rotate(-0.52)"/>
+          <path class="cls-33" 
+                 opacity="0.3" fill="#1856ff" filter="url(#blurMe)"
+                d="M415.05,65.6c63.41-.58,114.91,9.78,115,23.13S478.9,113.38,415.49,114s-114.92-9.78-115-23.13S351.64,66.17,415.05,65.6Z"/>
+        </g>
+        <text class="cls-34" transform="translate(205.37 109.52)">IMx-1 NB</text>
+      </g>
+    </g>
+  </g>
+</svg>

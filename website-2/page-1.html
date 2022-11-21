@@ -1,0 +1,585 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+          minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+    <link rel="stylesheet" type="text/css" href="css/video-js.css" />
+    <link rel="stylesheet" type="text/css" href="css/animation.css" />
+    <style>
+        .lin {
+            position:absolute;
+            width:1px;
+            height:100vh;
+            background-color:#ffffff;
+            top:0;
+            z-index:100000000000;
+        }
+        .lin-1 {
+            left:16.66666666666%;
+        }
+        .lin-2 {
+            left: 33.33333333333333%;
+        }
+        .lin-3 {
+            left: 50%;
+        }
+        .lin-4 {
+            left: 66.66666666666666%;
+        }
+        .lin-5 {
+            left: 83.3333333333333%;
+        }
+    </style>
+</head>
+<body onload="onLoad()">
+    <div class="lin lin-1"></div>
+    <div class="lin lin-2"></div>
+    <div class="lin lin-3"></div>
+    <div class="lin lin-4"></div>
+    <div class="lin lin-5"></div>
+    <audio id="myAudio" src="voice/click.mp3"></audio>
+    <img src="img/top-float.png" class="top-float" />
+    <img src="img/bottom-float.png" class="bottom-float" />
+    <div class="lignt-box light-box1"> 
+    </div>
+    <div class="lignt-box light-box2"> 
+    </div>
+    <div class="lignt-box light-box3"> 
+    </div>
+    <div class="loader flex center middle column">
+        <div id="loader"></div>
+        <div id="loaderText">资源加载中 0%</div>
+    </div>
+    <div class="left">
+        <!--circle-section-->
+        <div class="circle-section animation-action">
+            <img src="img/1-circle.png" class="circle rotate-reverse" />
+        </div>
+        <!--menu-->
+        <div class="menu animation-action">
+            <a href="javascript:;" class="btn btn-1 animated fadeInUp delay2 active" data-id="1">
+                什么是“交付旋转设备性能”？
+                <img src="img/line-1.png" class="line" />
+            </a>
+            <a href="javascript:;" class="btn btn-2 animated fadeInUp delay6" data-id="2">
+                设备的非计划停机,您的真正损失？
+                <img src="img/line-2.png" class="line" />
+            </a>
+            <a href="javascript:;" class="btn btn-3 animated fadeInUp delay6" data-id="3">
+                交付旋转设备性能,对您意味着什么？
+                <img src="img/line-3.png" class="line" />
+            </a>
+            <a href="javascript:;" class="btn btn-4 animated fadeInUp delay6" data-id="4">
+                为什么选择SKF交付旋转设备性能？
+                <img src="img/line-4.png" class="line" />
+            </a>
+            <a href="javascript:;" class="btn btn-5 animated fadeInUp delay6" data-id="5">
+                行业旋转设备性能方案展示
+                <img src="img/line-5.png" class="line" />
+            </a>
+        </div>
+        <div class="brief">
+            <div class="brief-box">
+                <div class="brief-inner">
+                    <p>您购买的不是零配件,而是旋转设备的稳定性和可靠性。只有这样才能收获您设备的最佳性能！</p>
+                    <p>选择基于性能表现的SKF REP业务模式，无论您身在何处，有怎样的应用需求，基于大数据驱动的设备洞察，SKF的专家都能第一时间为您提升盈利能力！</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--page-1-->
+    <div class="right right-1 active" data-id="1">
+        <div class="section-video ">
+            <div class="video-btn"></div>
+            <div class="video-player flex center middle" style="font-size:50px;">
+                <video id="my-video" class="video-js"
+                       controls preload="auto" data-setup="{}">
+                    <source src="video/11.MP4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <!--page-2-->
+    <div class="flex column center middle right-2 right " data-id="2">
+        <div class="text">
+            当关键部件轴承突发故障，<br />
+            每一小时，您的企业将面临 高额停机损失：
+        </div>
+        <div class="table">
+            <div class="thead flex center middle">
+                <div class="th  flex center middle">行业</div>
+                <div class="th  flex center middle">每小时损失（最低）</div>
+                <div class="th  flex center middle">每小时损失（最高）</div>
+            </div>
+            <div class="tbody animation-action">
+                <div class="tr flex center middle tr-1 animated bounceInLeft delay6">
+                    <div class="td  flex center middle">传统电力行业</div>
+                    <div class="td  flex center middle">140,000</div>
+                    <div class="td  flex center middle">350,000</div>
+                </div>
+                <div class="tr flex center middle tr-2 animated bounceInRight ">
+                    <div class="td  flex center middle">纸浆和造纸</div>
+                    <div class="td flex center middle ">35,000</div>
+                    <div class="td  flex center middle">105,000</div>
+                </div>
+                <div class="tr flex center middle tr-3 animated bounceInLeft delay6">
+                    <div class="td  flex center middle">石化行业</div>
+                    <div class="td  flex center middle">140,000</div>
+                    <div class="td  flex center middle">350,000</div>
+                </div>
+                <div class="tr flex center middle tr-4 animated bounceInRight">
+                    <div class="td  flex center middle">矿山、水泥和钢铁</div>
+                    <div class="td flex center middle ">140,000</div>
+                    <div class="td  flex center middle">350,000</div>
+                </div>
+                <div class="tr flex center middle tr-5 animated bounceInLeft delay6">
+                    <div class="td flex center middle ">食品饮料</div>
+                    <div class="td  flex center middle">21,000</div>
+                    <div class="td flex center middle ">56,000</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--page-3-->
+    <div class="flex start middle right-3 right" data-id="3">
+        <div class="section-3-1 flex start middle">
+            <div class="img-3-1-outer flex start middle">
+                <img src="./img/3-1-1.png" class="img-3-1-1" />
+                <img src="./img/3-1-2.png" class="img-3-1-2" />
+                <img src="./img/3-1-3.png" class="img-3-1-3" />
+            </div>
+        </div>
+        <div class="section-3-2 flex start middle">
+            <div class="list-3-2 flex column center middle">
+                <div class="list-3-2-item">运营成本</div>
+                <div class="list-3-2-item">维修费用</div>
+                <div class="list-3-2-item list-3-2-item-2">能耗成本</div>
+                <div class="list-3-2-item">设备可用性</div>
+                <div class="list-3-2-item">生产效率</div>
+                <div class="list-3-2-item list-3-2-item-2">质量</div>
+                <div class="list-3-2-item">健康和安全</div>
+                <div class="list-3-2-item">环境</div>
+            </div>
+            <div class="img-3-2-line-1-outer">
+                <img src="./img/3-2-line-1.png" class="img-3-2-line-1" />
+            </div>
+            <div class="list-3-2 flex column start middle">
+                <div class="list-3-2-item list-3-2-item-3">降低成本</div>
+                <div class="list-3-2-item list-3-2-item-3">增加产量</div>
+                <div class="list-3-2-item list-3-2-item-3">确保合规</div>
+            </div>
+            <div class="img-3-2-line-2-outer">
+                <img src="./img/3-2-line-2.png" class="img-3-2-line-2" />
+            </div>
+        </div>
+        <div class="section-3-3 flex column center middle animation-action">
+            <img src="img/3-3.png" class="img-3-3 rotate-reverse" />
+            <div class="text">旋转设备性能</div>
+        </div>
+        <div class="section-3-4 flex start middle">
+            <div class="flex start middle column items">
+                <div class="item flex column center middle item-1">
+                    生产损失<br />
+                    质量问题
+                </div>
+                <div class="item flex column center middle  item-2">
+                    能耗
+                </div>
+                <div class="item flex column center middle  item-3">
+                    人工、备件和<br />
+                    外包服务成本
+                </div>
+                <div class="item flex column center middle  item-4">
+                    备件库存
+                </div>
+                <div class="text">当前客户成本</div>
+            </div>
+            <img src="img/3-4-line.png" class="img-3-4-line" />
+            <div class="right-items flex column end middle">
+                <div class="item flex column start middle item-0">
+                    <img src="img/3-4-bk.png" class="img-3-4-bk" />
+                    <div class="text-1">
+                        <div>SKF</div>
+                        <div>旋转设备性能</div>
+                    </div>
+                    <div class="flex column start top">
+                        <div class="item-0-item flex start middle">
+                            <img src="./img/3-arrow-up.png" class="img-3-arrow-up" />
+                            设备可用性
+                        </div>
+                        <div class="item-0-item flex start middle">
+                            <img src="./img/3-arrow-up.png" class="img-3-arrow-up" />
+                            运行效率
+                        </div>
+                        <div class="item-0-item flex start middle">
+                            <img src="./img/3-arrow-up.png" class="img-3-arrow-up" />
+                            利润
+                        </div>
+                    </div>
+                </div>
+                <div class="flex end middle column items">
+                    <div class="item flex column center middle item-1 item-1-1">
+                        生产损失<br />
+                        质量问题
+                    </div>
+                    <div class="item flex column center middle  item-2  item-2-1">
+                        能耗
+                    </div>
+                    <div class="item flex column center middle  item-3 item-3-1">
+                        劳动力备件和<br />
+                        外包服务成本
+                    </div>
+                    <div class="item flex column center middle  item-4 item-4-1">
+                        备件库存
+                    </div>
+                    <div class="text">未来客户成本</div>
+                </div>
+            </div>
+        </div>
+        <div class="section-3-5 flex column center middle">
+            <img src="img/3-5.png" class="img-3-5" />
+            <div class="announce-outer flex center middle">
+                <div class="announce  open-diagonal">
+                    <img src="img/announe-bk.png" class="announe-bk" />
+                    <img src="img/corner-top.png" class="corner-top" />
+                    <img src="img/corner-bottom.png" class="corner-bottom" />
+                    <div class="announce-text delay-show flex column center middle">
+                        SKF方案所包括的产品和服务，使客户能够通过有效提高旋转设备性能实现总体拥有成本的降低！
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--page-4-->
+    <div class="flex center middle right-4  animation-action right " data-status="" data-active="0"
+         data-id="4">
+        <img src="./img/back.png" class="btn-back" />
+        <div class="widget-circle  animated rotate ">
+            <img src="img/4-1.png" class="img-icon img-4-1  animated rotate-reverse active" data-id="1" />
+            <img src="img/4-2.png" class="img-icon img-4-2  animated rotate-reverse" data-id="2" />
+            <img src="img/4-3.png" class="img-icon img-4-3  animated rotate-reverse" data-id="3" />
+            <img src="img/4-4.png" class="img-icon img-4-4  animated rotate-reverse" data-id="4" />
+            <img src="img/4-5.png" class="img-icon img-4-5  animated rotate-reverse" data-id="5" />
+            <img src="img/4-circle-bk.png" class="img-4-bk img-4-bk-1" />
+            <img src="img/4-circle-bk.png" class="img-4-bk img-4-bk-2" />
+            <img src="img/4-circle-bk.png" class="img-4-bk img-4-bk-3" />
+            <img src="img/4-circle-bk.png" class="img-4-bk img-4-bk-4" />
+            <img src="img/4-circle-bk.png" class="img-4-bk img-4-bk-5" />
+            <p class="p-1 animated rotate-reverse">评估</p>
+            <p class="p-2 animated rotate-reverse">监测</p>
+            <p class="p-3 animated rotate-reverse">维护</p>
+            <p class="p-4 animated rotate-reverse">解决</p>
+            <p class="p-5 animated rotate-reverse">再制造</p>
+        </div>
+        <img src="./img/4-des-1.jpg" class="img-4-des img-4-des-1 active" />
+        <img src="./img/4-des-2.jpg" class="img-4-des img-4-des-2" />
+        <img src="./img/4-des-3.jpg" class="img-4-des img-4-des-3" />
+        <img src="./img/4-des-4.jpg" class="img-4-des img-4-des-4" />
+        <img src="./img/4-des-5.jpg" class="img-4-des img-4-des-5" />
+        <svg xmlns="http://www.w3.org/2000/svg"
+             class="line-4-des "
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+             viewBox="0 0 1126.95 88.75">
+            <defs>
+                <style>
+                    .line-4-des .cls-1 {
+                        fill: none;
+                        stroke-miterlimit: 10;
+                        stroke-width: 1.85px;
+                        stroke: url(#未命名的渐变_21);
+                    }
+
+                    .line-4-des .cls-2 {
+                        fill: #fff;
+                    }
+
+                    .line-4-des .cls-3 {
+                        fill: url(#未命名的渐变_21-2);
+                    }
+
+                    .line-4-des path.cls-1 {
+                        stroke-dasharray: 1152.564;
+                        animation: dash 2s linear 0s infinite;
+                    }
+
+                    @keyframes dash {
+                        0% {
+                            stroke-dashoffset: 1152.564;
+                        }
+
+                        100% {
+                            stroke-dashoffset: 0;
+                        }
+                    }
+                </style>
+                <linearGradient id="未命名的渐变_21" x1="1.65" y1="40.9" x2="1126.95" y2="40.9" gradientUnits="userSpaceOnUse">
+                    <stop offset="0" stop-color="#00dcff" />
+                    <stop offset="1" stop-color="#00dcff" stop-opacity="0" />
+                </linearGradient>
+                <linearGradient id="未命名的渐变_21-2" x1="1.65" y1="80.87" x2="1126.95" y2="80.87" xlink:href="#未命名的渐变_21" />
+            </defs>
+            <g id="图层_2" data-name="图层 2">
+                <g id="文字内容">
+                    <path class="cls-1" d="M7.61,81.14 87.82,0.93 1126.95,0.93" />
+                    <path class="cls-2" d="M12.81,85.79a7,7,0,1,1,0-9.85A7,7,0,0,1,12.81,85.79Z" />
+                    <path class="cls-3" d="M13.46,86.44a7.88,7.88,0,1,0-11.15,0,7.88,7.88,0,0,0,11.15,0C16.54,83.37,10.39,89.52,13.46,86.44ZM3.62,76.6a6,6,0,1,1,0,8.53,6,6,0,0,1,0-8.53C6,74.24,1.26,79,3.62,76.6Z" />
+                </g>
+            </g>
+        </svg>
+        <img src="./img/circle-bk-1.png"
+             class="circle-4-des rotate-reverse" />
+        <img src="./img/circle-bk-2.png"
+             class="circle-4-des rotate" />
+        <div class="section-0"></div>
+        <div class="section-des section-des-1">
+            <div class="title">
+                SKF帮您发现改进的空间<br />
+                找到哪里可以有所收获
+            </div>
+            <div class="text">
+                <div class="sub-title">
+                    为您的业务创造价值
+                </div>
+                SKF对您设备的可靠性和资产管理方案进行独立评估,<br />
+                并帮助您与全球最佳实践进行比较。通过评估和对比,<br />
+                确定需要改进的领域。迈出第一步，识别可以为您的业<br />
+                务创造价值的重要机遇。
+            </div>
+        </div>
+        <div class="section-des section-des-3">
+            <div class="title">
+                日复一日，SKF用正确的工具<br />
+                为您提供更恰当的维护
+            </div>
+            <div class="text">
+                <div class="sub-title">
+                    正确维护
+                </div>
+                设备维护工作变得日益复杂，给维护工作带来前所未<br />
+                有的压力。<br /><br />
+                维护不仅仅是为了让机器保持运转，更重要的是确保<br />
+                其能为企业带来利润。因此，SKF的产品和服务可以帮<br />
+                助企业提升成本价值。
+            </div>
+        </div>
+        <div class="section-des section-des-4">
+            <div class="title">
+                SKF帮您解决设备问题
+                <br />
+                更防止问题再次发生。
+            </div>
+            <div class="text">
+                <div class="sub-title">
+                    长期解决方案
+                </div>
+                SKF帮助您识别和消除根本原因，解决具体的应用问<br />
+                题，并防止它们再次发生。您可以更好地理解分析数据<br />
+                ，改进润滑和备件管理（MRO）,并采用基于性能的方法<br />
+                来提高可靠性和利用率。
+            </div>
+        </div>
+        <div class="section-des section-des-2">
+            <div class="title">
+                领先的监测和分析能力预见设备故障，
+                <br />
+                避免非计划停机。
+            </div>
+            <div class="text">
+                <div class="sub-title">
+                    状态监测
+                </div>
+                机器停机的每一秒钟,都会给您带来损失。SKF有效的<br />
+                状态监测和数字技术可以在问题部件失效之前对其进<br />
+                行维修。这不仅能帮助工厂降低出现灾难性故障的可<br />
+                能性，也能实现预先订购零件、安排人力，并在停机期<br />
+                间安排其它方面的维修。
+            </div>
+        </div>
+        <div class="section-des section-des-5">
+            <div class="title">
+                SKF再制造工艺为您延长资产寿命，
+                <br />
+                提升可持续发展能力。
+            </div>
+            <div class="text">
+                <div class="sub-title">
+                    修复服务
+                </div>
+                与直接报废和更换某些关键且昂贵的部件相比，修复<br />
+                能够给机器注入新的活力。借此，您可以降低维护成本<br />
+                ，减少设备故障，提高设备可靠性，降低总体拥有成本，<br />
+                坐享环境效益。
+            </div>
+        </div>
+    </div>
+    <!--page-5-->
+    <div class="flex start middle right-5 right" data-id="5">
+        <div class="items flex start top wrap">
+            <div class="item item-1 flex column center middle active" data-id="1">
+                <img src="./img/5-1.png" class="img-5 img-5-1" />
+                <div class="text">冶金</div>
+            </div>
+            <div class="item item-2 flex column center middle" data-id="2">
+                <img src="./img/5-2.png" class="img-5 img-5-2" />
+                <div class="text">风电</div>
+            </div>
+            <div class="item item-3 flex column center middle" data-id="3">
+                <img src="./img/5-3.png" class="img-5 img-5-3" />
+                <div class="text">造纸</div>
+            </div>
+            <div class="item item-4 flex column center middle" data-id="4">
+                <img src="./img/5-4.png" class="img-5 img-5-4" />
+                <div class="text">水泥</div>
+            </div>
+            <div class="item item -5 flex column center middle" data-id="5">
+                <img src="./img/5-5.png" class="img-5 img-5-5" />
+                <div class="text">矿山</div>
+            </div>
+            <div class="item item-6 flex column center middle" data-id="6">
+                <img src="./img/5-6.png" class="img-5 img-5-6" />
+                <div class="text">石油石化</div>
+            </div>
+            <div class="item item-7 flex column center middle" data-id="7">
+                <img src="./img/5-7.png" class="img-5 img-5-7" />
+                <div class="text">机床</div>
+            </div>
+            <div class="item item-8 flex column center middle" data-id="8">
+                <img src="./img/5-8.png" class="img-5 img-5-8" />
+                <div class="text">盾构机</div>
+            </div>
+        </div>
+        <div class="section-5-2">
+            <div class="section-5-2-top">
+                <img src="img/5-light.svg" class="svg" />
+                <div class="text text-1 active" data-id="1">冶金</div>
+                <div class="text text-2" data-id="2">风电</div>
+                <div class="text text-3" data-id="3">造纸</div>
+                <div class="text text-4" data-id="4">水泥</div>
+                <div class="text text-5" data-id="5">矿山</div>
+                <div class="text text-6" data-id="6">石油石化</div>
+                <div class="text text-7" data-id="7">机床</div>
+                <div class="text text-8" data-id="8">盾构机</div>
+            </div>
+            <div class="section-5-2-bottom flex space-between middle animation-action">
+                <div class="section-5-2-bottom-item section-5-2-bottom-1 animated flipInY">
+                    <img src="./img/5-title-1.png" class="section-5-2-bottom-title title-1" />
+                    <div class="outer outer-1 flex center middle">
+                        <div class="outer-text outer-text-left flex center middle column active" data-id="1">
+                            <span class="text-left-1">节省</span>
+                            <div>
+                                <span class="text-left-2" id="left1" data-d="600000">600,000</span><span class="text-left-3">元/年</span>
+                            </div>
+                        </div>
+                        <div class="outer-text outer-text-left flex center middle column" data-id="2">
+                            <span class="text-left-1">节省</span>
+                            <div>
+                                <span class="text-left-2" id="left2" data-d="700000">700,000</span><span class="text-left-3">元/年</span>
+                            </div>
+                        </div>
+                        <div class="outer-text outer-text-left flex center middle column" data-id="3">
+                            <span class="text-left-1">节省</span>
+                            <div>
+                                <span class="text-left-2" id="left3" data-d="9500">9,500</span><span class="text-left-3">元/年</span>
+                            </div>
+                        </div>
+                        <div class="outer-text outer-text-left flex center middle column" data-id="4">
+                            <span class="text-left-1">节省</span>
+                            <div>
+                                <span class="text-left-2" id="left4" data-d="8000">8,000</span><span class="text-left-3">元/年</span>
+                            </div>
+                        </div>
+                        <div class="outer-text outer-text-left flex center middle column" data-id="5">
+                            <span class="text-left-1">节省</span>
+                            <div>
+                                <span class="text-left-2" id="left5" data-d="30000">30,000</span><span class="text-left-3">元/年</span>
+                            </div>
+                        </div>
+                        <div class="outer-text outer-text-left flex center middle column" data-id="6">
+                            <span class="text-left-1">节省</span>
+                            <div>
+                                <span class="text-left-2" id="left6" data-d="200000">200,000</span><span class="text-left-3">元/年</span>
+                            </div>
+                        </div>
+                        <div class="outer-text outer-text-left flex center middle column" data-id="7">
+                            <span class="text-left-1">节省</span>
+                            <div>
+                                <span class="text-left-2" id="left7" data-d="30000">30,000</span><span class="text-left-3">元/年</span>
+                            </div>
+                        </div>
+                        <div class="outer-text outer-text-left flex center middle column" data-id="8">
+                            <span class="text-left-1">节省</span>
+                            <div>
+                                <span class="text-left-2" id="left8" data-d="8100000">8,100,000</span><span class="text-left-3">元/年</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="./img/5-vs.png" class="vs" />
+                <div class="section-5-2-bottom-item section-5-2-bottom-2 animated flipInY">
+                    <img src="./img/5-title-2.png" class="section-5-2-bottom-title title-2" />
+                    <div class="outer outer-2 flex center middle">
+                        <div class="outer-text outer-text-right flex center middle column active" data-id="1">
+                            <span class="text-right-1">设备利用率提升<span class="text-right-2">1%</span></span>
+                            <span class="text-right-3">销售增长</span>
+                            <span class="text-right-4"><span id="right1" data-d="18800000">18,800,000</span><span class="text-right-5">元/年</span></span>
+                        </div>
+                        <div class="outer-text outer-text-right flex center middle column" data-id="2">
+                            <span class="text-right-1">设备利用率提升<span class="text-right-2">2%</span></span>
+                            <span class="text-right-3">销售增长</span>
+                            <span class="text-right-4"><span id="right2" data-d="19800000"></span><span class="text-right-5">元/年</span></span>
+                        </div>
+                        <div class="outer-text outer-text-right flex center middle column" data-id="3">
+                            <span class="text-right-1">故障间隔延长至<span class="text-right-2">36</span>个月</span>
+                            <span class="text-right-3">增加收益</span>
+                            <span class="text-right-4"><span id="right3" data-d="21666"></span><span class="text-right-5">元/年</span></span>
+                        </div>
+                        <div class="outer-text outer-text-right flex center middle column" data-id="4">
+                            <span class="text-right-1">故障间隔延长至<span class="text-right-2">12</span>个月</span>
+                            <span class="text-right-3">增加收益</span>
+                            <span class="text-right-4"><span id="right4" data-d="4275000"></span><span class="text-right-5">元/年</span></span>
+                        </div>
+                        <div class="outer-text outer-text-right flex center middle column" data-id="5">
+                            <span class="text-right-1">故障间隔延长至<span class="text-right-2">12</span>个月</span>
+                            <span class="text-right-3">节省</span>
+                            <span class="text-right-4"><span id="right5" data-d="34000000"></span><span class="text-right-5">元/年</span></span>
+                        </div>
+                        <div class="outer-text outer-text-right flex center middle column" data-id="6">
+                            <span class="text-right-1">设备利用率提升<span class="text-right-2">30%</span></span>
+                            <span class="text-right-3">节约大修备件成本</span>
+                            <span class="text-right-4"><span id="right61" data-d="1950000"></span><span class="text-right-5">元/年</span></span>
+                            <span class="text-right-3">增加收益</span>
+                            <span class="text-right-4"><span id="right62" data-d="310000000"></span><span class="text-right-5">元/年</span></span>
+                        </div>
+                        <div class="outer-text outer-text-right flex center middle column" data-id="7">
+                            <span class="text-right-1">设备OEE提升<span class="text-right-2">2%</span></span>
+                            <span class="text-right-3">增加收益</span>
+                            <span class="text-right-4"><span id="right7" data-d="500000"></span><span class="text-right-5">元/年</span></span>
+                        </div>
+                        <div class="outer-text outer-text-right flex center middle column" data-id="8">
+                            <span class="text-right-1">设备利用率提升<span class="text-right-2">8%</span></span>
+                            <span class="text-right-3">销售增长</span>
+                            <span class="text-right-4"><span id="right8" data-d="89800000"></span><span class="text-right-5">元/年</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/video.min.js"></script>
+    <script type="text/javascript" src="js/video-page.js"></script>
+    <script type="text/javascript" src="js/nicescroll.js"></script>
+    <script type="text/javascript" src="js/circleLoader.js"></script>
+    <script type="text/javascript" src="js/resLoader.js"></script>
+    <script type="text/javascript" src="js/circleLoader.js"></script>
+    <script type="text/javascript" src="js/countUp.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/page-4.js"></script>
+    <script type="text/javascript" src="js/page-5.js"></script>
+</body>
+</html>

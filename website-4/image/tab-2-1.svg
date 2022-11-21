@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 67.27 18.37">
+  <defs>
+    <style>.cls-1{isolation:isolate;}.cls-2,.cls-4{mix-blend-mode:screen;}.cls-2{fill:url(#未命名的渐变_145);}.cls-3{fill:#11263a;opacity:0.7;}.cls-4,.cls-6{fill:none;stroke-miterlimit:10;}.cls-4{stroke:#00dcff;stroke-width:0.1px;}.cls-5{font-size:3.6px;fill:#fff;font-family:SourceHanSansCN-Light-GBpc-EUC-H, Source Han Sans CN;}.cls-6{stroke:#fff;stroke-width:0.13px;}</style>
+    <radialGradient id="未命名的渐变_145" cx="60.27" cy="11.37" r="7"  gradientUnits="userSpaceOnUse">
+      <stop offset="0.05" stop-color="#fff"/>
+      <stop offset="0.07" stop-color="#fdffff"/>
+      <stop offset="0.07" stop-color="#f5feff"/>
+      <stop offset="0.08" stop-color="#e7fcff"/>
+      <stop offset="0.08" stop-color="#d4f9ff"/>
+      <stop offset="0.09" stop-color="#bbf6ff"/>
+      <stop offset="0.09" stop-color="#9cf1ff"/>
+      <stop offset="0.09" stop-color="#77ecff"/>
+      <stop offset="0.1" stop-color="#4de7ff"/>
+      <stop offset="0.1" stop-color="#1ee0ff"/>
+      <stop offset="0.1" stop-color="#00dcff"/>
+      <stop offset="0.11" stop-color="#00d4f6"/>
+      <stop offset="0.14" stop-color="#00adc8"/>
+      <stop offset="0.18" stop-color="#00879d"/>
+      <stop offset="0.23" stop-color="#006777" stop-opacity="0.6"/>
+      <stop offset="0.28" stop-color="#004b57" stop-opacity="0.3"/>
+      <stop offset="0.33" stop-color="#00333b" stop-opacity="0.1"/>
+      <stop offset="0.39" stop-color="#002025" stop-opacity="0"/>
+      <stop offset="0.46" stop-color="#001214" stop-opacity="0"/>
+      <stop offset="0.54" stop-color="#000709" stop-opacity="0"/>
+      <stop offset="0.66" stop-color="#000202" stop-opacity="0"/>
+      <stop offset="1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g class="cls-1">
+    <g id="图层_2" data-name="图层 2">
+      <g id="图层_10" data-name="图层 10">
+        <circle class="cls-2" cx="60.27" cy="11.37" r="7">
+          <animate attributeName="opacity" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <rect class="cls-3" x="0.05" y="0.05" width="50" height="7"/>
+        <rect class="cls-4" x="0.05" y="0.05" width="50" height="7"/>
+        <text class="cls-5" transform="translate(4.45 4.93)">
+          <tspan xml:space="preserve">斯凯孚全球技术中心  中国</tspan>
+        </text>
+        <polyline class="cls-6" points="60.27 11.38 52.6 3.71 50.05 3.71"/>
+      </g>
+    </g>
+  </g>
+</svg>

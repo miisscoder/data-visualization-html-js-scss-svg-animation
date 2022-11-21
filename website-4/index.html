@@ -1,0 +1,381 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+</head>
+<body class="page-1"  onload="onLoad()">
+    <div class="loader flex center middle column">
+        <div id="loader"></div>
+        <div id="loaderText">资源加载中 0%</div>
+    </div>
+    <audio id="myAudio" src="voice/click.mp3"></audio>
+    <div class="lignt-box light-box1"></div>
+    <div class="lignt-box light-box2"></div>
+    <div class="lignt-box light-box3"></div>
+    <div class="lignt-box light-box4"></div>
+    <div class="lignt-box light-box5"></div>
+    <div class="lignt-box light-box6"></div>
+    <div class="v-line v-line-1"></div>
+    <div class="v-line v-line-2"></div>
+    <div class="h-line"></div>
+    <div class="flex middle center main">
+        <div class="content-left flex column middle center">
+            <div class="titles flex center middle text-blue">
+                <div class="title-l">
+                    <span class="number-font-family">2025</span><span class="chinese-font-family">年</span>
+                </div>
+                <div class="title-r">
+                    <span class="chinese-font-family">在中国实现</span><span class="number-font-family">80%-90%</span><span class="chinese-font-family">业务的</span>
+                    <br />
+                    <span class="chinese-font-family">全价值链本地化投资和布局</span>
+                </div>
+            </div>
+            <div class="title-group title-group-1">
+                <span class="title-text">全价值链</span>
+                <img src="image/title-2.svg" class="title-light" />
+            </div>
+            <div class="items-1">
+                <img src="image/l-1.svg" class="image-l-1" />
+                <img src="image/l1-circle.png" class="image-l-1-circle" />
+            </div>
+            <div class="title-group">
+                <span class="title-text">世界级制造</span>
+                <img src="image/title-2.svg" class="title-light" />
+            </div>
+            <div class="flex space-between middle items-2">
+                <div class="item flex start middle">
+                    <img src="image/l-2-1.svg" />
+                    <span>清洁</span>
+                </div>
+                <img src="image/line.png" class="line" />
+                <div class="item flex start middle">
+                    <img src="image/l-2-2.svg" />
+                    <span>智能</span>
+                </div>
+                <img src="image/line.png" class="line" />
+                <div class="item flex start middle">
+                    <img src="image/l-2-3.svg" />
+                    <span>安全</span>
+                </div>
+                <img src="image/line.png" class="line" />
+                <div class="item flex start middle">
+                    <img src="image/l-2-4.svg" />
+                    <span>高效</span>
+                </div>
+                <img src="image/line.png" class="line" />
+                <div class="item flex start middle">
+                    <img src="image/l-2-5.svg" />
+                    <span>灵活</span>
+                </div>
+            </div>
+            <div class="title-group">
+                <span class="title-text">全球标准</span>
+                <img src="image/title-2.svg" class="title-light" />
+                <span class="sub-title-text">遵循SKF全球质量标准及流程</span>
+            </div>
+            <div class="flex space-between middle items-3">
+                <div class="item flex column start middle">
+                    <div class="item-1 image-item">
+                        <div class="image">
+                            <img src="image/bk-2.png" class="bk" />
+                            <img src="image/l-3-1.png" class="center-image text-image" />
+                        </div>
+                    </div>
+                    <span>
+                        ISO 9001<br />
+                        质量体系认证
+                    </span>
+                </div>
+                <div class="item flex column start middle">
+                    <div class="item-1 image-item">
+                        <div class="image">
+                            <img src="image/bk-2.png" class="bk" />
+                            <img src="image/l-3-2.png" class="center-image text-image" />
+                        </div>
+                    </div>
+                    <span>
+                        IATF 16949:2016<br />
+                        质量体系认证
+                    </span>
+                </div>
+                <div class="item flex column start middle">
+                    <div class="item-1 image-item">
+                        <div class="image">
+                            <img src="image/bk-2.png" class="bk" />
+                            <img src="image/l-3-3.png" class="center-image text-image" />
+                        </div>
+                    </div>
+                    <span>
+                        ISO 14001<br />
+                        环境管理体系认证
+                    </span>
+                </div>
+                <div class="item flex column start middle">
+                    <div class="item-1 image-item">
+                        <div class="image">
+                            <img src="image/bk-2.png" class="bk" />
+                            <img src="image/l-3-4.png" class="center-image text-image" />
+                        </div>
+                    </div>
+                    <span>
+                        OHSAS 18001<br />
+                        职业健康安全管理体系认证
+                    </span>
+                </div>
+                <div class="item flex column start middle">
+                    <div class="item-1 image-item">
+                        <div class="image">
+                            <img src="image/bk-2.png" class="bk" />
+                            <img src="image/l-3-5.png" class="center-image text-image" />
+                        </div>
+                    </div>
+                    <span>
+                        ISO50001<br />
+                        能源管理体系认证
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="content-middle">
+            <div class="tabs flex space-between middle">
+                <div class="item">
+                    <div class="title text-blue">雇员数约</div>
+                    <div class="text flex center bottom">
+                        <div class="number-font-family-2 number">6,000</div>
+                        <div class="unit text-blue">名</div>
+                    </div>
+                </div>
+                <img src="image/line.png" class="line">
+                <div class="item tab" data-id="1-1" data-group="1">
+                    <div class="title text-blue">生产基地</div>
+                    <div class="text flex center bottom">
+                        <div class="number-font-family-2 number">10</div>
+                        <div class="unit text-blue">个</div>
+                    </div>
+                </div>
+                <img src="image/line.png" class="line">
+                <div class="item tab" data-id="1-2" data-group="1">
+                    <div class="title text-blue">授权合作伙伴</div>
+                    <div class="text flex center bottom">
+                        <div class="number-font-family-2 number">155</div>
+                        <div class="unit text-blue">家</div>
+                    </div>
+                </div>
+                <img src="image/line.png" class="line">
+                <div class="item tab" data-id="1-3" data-group="1">
+                    <div class="title text-blue">联络处</div>
+                    <div class="text flex center bottom">
+                        <div class="number-font-family-2 number">10+</div>
+                        <div class="unit text-blue">个</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex center middle middle-container">
+                <div class="section-1">
+                    <div class="section-1-left">
+                        <div class="btns flex start middle">
+                            <div class="btn tab" data-id="2-1" data-group="2">全球技术中心</div>
+                            <div class="btn tab" data-id="2-2" data-group="2">东北亚分拨中心</div>
+                        </div>
+                        <div class="btns tab-container flex start middle "
+                             data-id="1-2" data-active="false">
+                            <div class="btn tab" data-id="4-1" data-group="4">合作伙伴</div>
+                            <div class="btn tab" data-id="4-2" data-group="4">地域分布</div>
+                        </div>
+                    </div>
+                    <img src="image/2-1-logo.png" class="tab-container logo-2-1" data-id="2-1" data-group="2" />
+                    <div class="tip text-blue">* 截止2022年数据</div>
+                </div>
+                <div class="map-group">
+                    <img src="image/map-1-b.png" class="map-1-b" />
+                    <img src="image/map-1.svg" class="map" />
+                    <img src="image/tab-1-1.svg" class="tab-container"
+                         data-id="1-1" data-active="false" />
+                    <img src="image/tab-4-1.svg" class="tab-container"
+                         data-id="4-1" data-active="false" />
+                    <div class="tab-container"
+                         data-id="4-2" data-active="false">
+                        <img src="image/tab-4-2-bk.svg" class="tab-4-2-bk" />
+                        <img src="image/tab-4-2-1.svg" 
+                             class="tab-4-2-1 tab-4-2-item"
+                             data-id="4-2-1"   />
+                        <img src="image/tab-4-2-2.svg" 
+                             class="tab-4-2-2 tab-4-2-item "
+                             data-id="4-2-2" />
+                        <img src="image/tab-4-2-3.svg" 
+                             class="tab-4-2-3 tab-4-2-item "
+                             data-id="4-2-3" />
+                        <img src="image/tab-4-2-line.svg" class="tab-4-2-line" />
+                    </div>
+                    <img src="image/tab-1-3.svg" class="tab-container"
+                         data-id="1-3" data-active="false" />
+                    <img src="image/tab-2-1.svg" class="tab-container"
+                         data-id="2-1" data-active="false" />
+                    <img src="image/tab-2-2.svg" class="tab-container"
+                         data-id="2-2" data-active="false" />
+                    <img src="image/tab-1-3-1.svg" class="tab-container"
+                         data-id="3-1" data-active="false" />
+                    <img src="image/tab-1-3-2.svg" class="tab-container"
+                         data-id="3-2" data-active="false" />
+                    <img src="image/tab-1-3-3.svg" class="tab-container"
+                         data-id="3-3" data-active="false" />
+                    <img src="image/tab-1-3-4.svg" class="tab-container"
+                         data-id="3-4" data-active="false" />
+                    <img src="image/tab-1-3-5.svg" class="tab-container"
+                         data-id="3-5" data-active="false" />
+                    <img src="image/tab-1-3-6.svg" class="tab-container"
+                         data-id="3-6" data-active="false" />
+                    <img src="image/tab-1-3-7.svg" class="tab-container"
+                         data-id="3-7" data-active="false" />
+                    <img src="image/tab-1-3-8.svg" class="tab-container"
+                         data-id="3-8" data-active="false" />
+                </div>
+                <div class="section-2 flex space-between bottom">
+                    <div class="btns tab-container"
+                         data-id="1-2" data-active="false">
+                        <div class="btn flex start middle tab"
+                             data-id="3-1" data-group="3">
+                            <img src="image/icon-1.png" />
+                            <span>应用和服务认证伙伴</span>
+                        </div>
+                        <div class="btn flex start middle tab"
+                             data-id="3-2" data-group="3">
+                            <img src="image/icon-2.png" />
+                            <span>智能共建伙伴</span>
+                        </div>
+                        <div class="btn flex start middle tab"
+                             data-id="3-3" data-group="3">
+                            <img src="image/icon-3.png" />
+                            <span>润滑管理服务中心</span>
+                        </div>
+                        <div class="btn flex start middle tab"
+                             data-id="3-4" data-group="3">
+                            <img src="image/icon-4.png" />
+                            <span>冶金再制造伙伴</span>
+                        </div>
+                        <div class="btn flex start middle tab"
+                             data-id="3-5" data-group="3">
+                            <img src="image/icon-5.png" />
+                            <span>风电再制造伙伴</span>
+                        </div>
+                        <div class="btn flex start middle tab"
+                             data-id="3-6" data-group="3">
+                            <img src="image/icon-6.png" />
+                            <span>机床主轴再制造伙伴</span>
+                        </div>
+                        <div class="btn flex start middle tab"
+                             data-id="3-7" data-group="3">
+                            <img src="image/icon-7.png" />
+                            <span>密封卫星站</span>
+                        </div>
+                        <div class="btn flex start middle tab"
+                             data-id="3-8" data-group="3">
+                            <img src="image/icon-8.png" />
+                            <span>规划中</span>
+                        </div>
+                    </div>
+                    <div class="legand tab-container"
+                         data-id="4-2" data-active="false">
+                        <div class="legand-title">全国授权合作伙伴分布</div>
+                        <div class="legand-sub-title">（单位：家）</div>
+                        <div class="legand-box flex column center middle">
+                            <div class="legand-group flex center middle"
+                                 data-id="4-2-1" >
+                                <div class="legand-text flex end middle number-font-family">1-10</div>
+                                <img src="image/legand-bar-1.png" class="legand-bar" />
+                            </div>
+                            <div class="legand-group flex center middle"
+                                 data-id="4-2-2" >
+                                <div class="legand-text flex end middle number-font-family">11-20</div>
+                                <img src="image/legand-bar-2.png" class="legand-bar" />
+                            </div>
+                            <div class="legand-group flex center middle"
+                                 data-id="4-2-3" >
+                                <div class="legand-text flex end middle number-font-family">21-30</div>
+                                <img src="image/legand-bar-3.png" class="legand-bar" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-right">
+            <div class="section">
+                <div class="title-group">
+                    <div class="titles flex space-between middle">
+                        <span class="title-text title-text-1">清洁生产</span>
+                        <span class="title-text title-text-2">智慧能碳管理系统</span>
+                    </div>
+                    <img src="image/title-3.svg" class="title-light" />
+                </div>
+                <div class="content flex space-between middle">
+                    <div class="items-1">
+                        <div class="item">
+                            <img src="image/r-1.svg" class="icon" />
+                            <div class="text">能源供应</div>
+                        </div>
+                        <div class="item">
+                            <img src="image/r-2.svg" class="icon" />
+                            <div class="text">
+                                生产设备<br />
+                                及产品工艺
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="image/r-3.svg" class="icon" />
+                            <div class="text">物流运输</div>
+                        </div>
+                    </div>
+                    <div class="items-2">
+                        <img src="image/r-1.jpg" class="image" />
+                    </div>
+                </div>
+            </div>
+            <div class="section section-2">
+                <div class="title-group">
+                    <div class="titles flex space-between middle">
+                        <span class="title-text title-text-1">未来工厂</span>
+                        <span class="title-text title-text-2">中国区综合看板</span>
+                    </div>
+                    <img src="image/title-3.svg" class="title-light" />
+                </div>
+                <div class="content flex space-between middle">
+                    <div class="items-1">
+                        <div class="item">
+                            <img src="image/r-4.svg" class="icon" />
+                            <div class="text">
+                                端到端数字化<br />
+                                管理和生产
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="image/r-5.svg" class="icon" />
+                            <div class="text">先进过程控制</div>
+                        </div>
+                        <div class="item">
+                            <img src="image/r-6.svg" class="icon" />
+                            <div class="text">
+                                智能化、自动化<br />
+                                的质量监控
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items-2">
+                        <img src="image/r-2.jpg" class="image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/resLoader.js"></script>
+    <script type="text/javascript" src="js/circleLoader.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/1.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 36.27 10.42">
+  <defs>
+    <style>.cls-1{isolation:isolate;}.cls-2,.cls-3{fill:none;stroke-miterlimit:10;}.cls-2{stroke:#5cdeff;stroke-width:0.17px;}.cls-3{stroke:#31756c;stroke-width:0.2px;mix-blend-mode:color-dodge;}.cls-4{fill:url(#未命名的渐变_30);}</style>
+    <linearGradient id="未命名的渐变_30" x1="15.38" y1="-0.43" x2="19.15" y2="7.28" gradientUnits="userSpaceOnUse">
+      <stop offset="0.37" stop-color="#fff" stop-opacity="0.05"/>
+      <stop offset="0.62" stop-color="#fff" stop-opacity="0.07"/>
+      <stop offset="0.96" stop-color="#fff" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+  <g class="cls-1">
+    <g id="图层_2" data-name="图层 2">
+      <g id="图层_10" data-name="图层 10">
+        <polyline class="cls-2" points="20.84 10.27 36.12 10.27 36.12 8.02"/>
+        <path class="cls-3" d="M.1,10.32H36.17V.1H.1Z"/>
+        <polyline class="cls-2" points="4.95 0.15 0.15 0.15 0.15 3.65"/>
+        <polygon class="cls-4" points="0.42 0.41 0.42 10 35.85 0.41 0.42 0.41"/>
+      </g>
+    </g>
+  </g>
+</svg>

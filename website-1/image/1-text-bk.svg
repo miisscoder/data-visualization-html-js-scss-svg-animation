@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1303.25 352.09">
+  <defs>
+    <style>.cls-1{isolation:isolate;}
+    .cls-2{mix-blend-mode:screen;fill:url(#未命名的渐变_8);}
+    .cls-3,.cls-4{fill:none;stroke-miterlimit:10;stroke-width:3.65px;}
+    .cls-3{stroke:#00dcff;}
+    .cls-4{stroke:#fff;}</style>
+    <linearGradient id="未命名的渐变_8" x1="1.82" y1="176.05" x2="1301.42" y2="176.05" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.2"/>
+      <stop offset="0.5" stop-color="#00dcff" stop-opacity="0.05"/>
+      <stop offset="0.67" stop-color="#45e5ff" stop-opacity="0.09"/>
+      <stop offset="0.99" stop-color="#f9feff" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <g class="cls-1">
+    <g id="图层_2" data-name="图层 2">
+      <g id="图层_2-2" data-name="图层 2">
+        <rect class="cls-2" x="1.82" width="1299.6" height="352.09"/>
+        <line class="cls-3" x1="1.82" x2="1.82" y2="352.09"/>
+        <line class="cls-4" x1="1301.42" x2="1301.42" y2="352.09"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 57.57 47.49">
+  <defs>
+    <style>.cls-1,.cls-2,.cls-3{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:5.28px;}
+    .cls-1{opacity:0.2;stroke:url(#未命名的渐变_18);}
+    .cls-2{opacity:0.6;stroke:url(#未命名的渐变_18-2);}
+    .cls-3{stroke:url(#未命名的渐变_18-3);}</style>
+    <linearGradient id="未命名的渐变_18" x1="10.76" y1="47.49" x2="10.76" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00dcff"/>
+      <stop offset="0.09" stop-color="#0fdeff"/>
+      <stop offset="0.27" stop-color="#36e3ff"/>
+      <stop offset="0.52" stop-color="#75ecff"/>
+      <stop offset="0.83" stop-color="#cbf8ff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="未命名的渐变_18-2" x1="28.79" y1="47.49" x2="28.79" xlink:href="#未命名的渐变_18"> 
+    </linearGradient>
+    <linearGradient id="未命名的渐变_18-3" x1="46.82" y1="47.49" x2="46.82" xlink:href="#未命名的渐变_18"/>
+  </defs>
+  <g id="图层_2" data-name="图层 2">
+    <g id="图层_2-2" data-name="图层 2">
+      <polyline class="cls-1" points="2.64 2.64 18.87 23.74 2.64 44.85" opacity="0.2">
+        <animate attributeName="opacity" values="1;0.6;0.2;0.2;1" dur="4s" repeatCount="indefinite"></animate>
+      </polyline>
+      <polyline class="cls-2" points="20.67 2.64 36.91 23.74 20.67 44.85" opacity="0.6" >
+        <animate attributeName="opacity" values="0.2;1;0.6;0.2;0.2" dur="4s" repeatCount="indefinite"></animate>
+      </polyline>
+      <polyline class="cls-3" points="38.7 2.64 54.94 23.74 38.7 44.85" opacity="1"  >
+        <animate attributeName="opacity" values="0.2;0.2;1;0.6;0.2" dur="4s" repeatCount="indefinite"></animate>
+      </polyline>
+    </g>
+  </g>
+</svg>

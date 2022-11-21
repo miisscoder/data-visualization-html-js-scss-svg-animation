@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 72.12 88.19">
+  <defs>
+    <style>.cls-1{isolation:isolate;}.cls-10,.cls-11,.cls-12,.cls-13,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6,.cls-7,.cls-8,.cls-9{mix-blend-mode:screen;}.cls-2{fill:url(#未命名的渐变_145);}.cls-3{fill:url(#未命名的渐变_145-2);}.cls-4{fill:url(#未命名的渐变_145-3);}.cls-5{fill:url(#未命名的渐变_145-4);}.cls-6{fill:url(#未命名的渐变_145-5);}.cls-7{fill:url(#未命名的渐变_145-6);}.cls-8{fill:url(#未命名的渐变_145-7);}.cls-9{fill:url(#未命名的渐变_145-8);}.cls-10{fill:url(#未命名的渐变_145-9);}.cls-11{fill:url(#未命名的渐变_145-10);}.cls-12{fill:url(#未命名的渐变_145-11);}.cls-13{fill:url(#未命名的渐变_145-12);}</style>
+    <radialGradient id="未命名的渐变_145" cx="62.2" cy="46.5" r="7" gradientUnits="userSpaceOnUse">
+      <stop offset="0.05" stop-color="#fff"/>
+      <stop offset="0.07" stop-color="#fdffff"/>
+      <stop offset="0.07" stop-color="#f5feff"/>
+      <stop offset="0.08" stop-color="#e7fcff"/>
+      <stop offset="0.08" stop-color="#d4f9ff"/>
+      <stop offset="0.09" stop-color="#bbf6ff"/>
+      <stop offset="0.09" stop-color="#9cf1ff"/>
+      <stop offset="0.09" stop-color="#77ecff"/>
+      <stop offset="0.1" stop-color="#4de7ff"/>
+      <stop offset="0.1" stop-color="#1ee0ff"/>
+      <stop offset="0.1" stop-color="#00dcff"/>
+      <stop offset="0.11" stop-color="#00d4f6"/>
+      <stop offset="0.14" stop-color="#00adc8"/>
+      <stop offset="0.18" stop-color="#00879d"/>
+      <stop offset="0.23" stop-color="#006777" stop-opacity="0.6"/>
+      <stop offset="0.28" stop-color="#004b57" stop-opacity="0.3"/>
+      <stop offset="0.33" stop-color="#00333b" stop-opacity="0.1"/>
+      <stop offset="0.39" stop-color="#002025" stop-opacity="0"/>
+      <stop offset="0.46" stop-color="#001214" stop-opacity="0"/>
+      <stop offset="0.54" stop-color="#000709" stop-opacity="0"/>
+      <stop offset="0.66" stop-color="#000202" stop-opacity="0"/>
+      <stop offset="1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="未命名的渐变_145-2" cx="53.46" cy="44.29" r="7"  xlink:href="#未命名的渐变_145"/>
+    <radialGradient id="未命名的渐变_145-3" cx="7" cy="50.97" r="7"  xlink:href="#未命名的渐变_145"/>
+    <radialGradient id="未命名的渐变_145-4" cx="36.66" cy="50.42" r="7"  xlink:href="#未命名的渐变_145"/>
+    <radialGradient id="未命名的渐变_145-5" cx="37.73" cy="77.96" r="7"  xlink:href="#未命名的渐变_145"/>
+    <radialGradient id="未命名的渐变_145-6" cx="41.12" cy="81.19" r="7"  xlink:href="#未命名的渐变_145"/>
+    <radialGradient id="未命名的渐变_145-7" cx="65.12" cy="69.23" r="7"  xlink:href="#未命名的渐变_145"/>
+    <radialGradient id="未命名的渐变_145-8" cx="21.67" cy="38.45" r="7"  xlink:href="#未命名的渐变_145"/>
+    <radialGradient id="未命名的渐变_145-9" cx="42.34" cy="15.36" r="7"  xlink:href="#未命名的渐变_145"/>
+    <radialGradient id="未命名的渐变_145-10" cx="55.68" cy="28.24" r="7"  xlink:href="#未命名的渐变_145"/>
+    <radialGradient id="未命名的渐变_145-11" cx="59.78" cy="7" r="7"  xlink:href="#未命名的渐变_145"/>
+    <radialGradient id="未命名的渐变_145-12" cx="44.73" cy="18.7" r="7"  xlink:href="#未命名的渐变_145"/>
+  </defs>
+  <g class="cls-1">
+    <g id="图层_2" data-name="图层 2">
+      <g id="图层_10" data-name="图层 10">
+        <circle class="cls-2" cx="62.2" cy="46.5" r="7">
+          <animate attributeName="opacity" begin="0" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <circle class="cls-3" cx="53.46" cy="44.29" r="7">
+          <animate attributeName="opacity" begin="1s" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <circle class="cls-4" cx="7" cy="50.97" r="7">
+          <animate attributeName="opacity" begin="0.5s" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <circle class="cls-5" cx="36.66" cy="50.42" r="7">
+          <animate attributeName="opacity" begin="1.5s" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <circle class="cls-6" cx="37.73" cy="77.96" r="7">
+        <animate attributeName="opacity" begin="0" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <circle class="cls-7" cx="41.12" cy="81.19" r="7">
+          <animate attributeName="opacity" begin="1.5s" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <circle class="cls-8" cx="65.12" cy="69.23" r="7">
+          <animate attributeName="opacity" begin="0.5s"  dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <circle class="cls-9" cx="21.67" begin="0.5s" cy="38.45" r="7">
+          <animate attributeName="opacity" begin="1.5s" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <circle class="cls-10" cx="42.34" begin="0.5s" cy="15.36" r="7">
+          <animate attributeName="opacity" begin="0" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <circle class="cls-11" cx="55.68" cy="28.24" r="7">
+          <animate attributeName="opacity" begin="1s" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <circle class="cls-12" cx="59.78" cy="7" r="7">
+          <animate attributeName="opacity" begin="0" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+        <circle class="cls-13" cx="44.73" cy="18.7" r="7">
+          <animate attributeName="opacity" begin="1.5s" dur="2s" values="0.4;1;0.4" repeatCount="indefinite"></animate>
+        </circle>
+      </g>
+    </g>
+  </g>
+</svg>

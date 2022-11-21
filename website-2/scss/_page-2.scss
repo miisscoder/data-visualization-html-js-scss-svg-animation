@@ -1,0 +1,52 @@
+﻿.right-2 {
+    overflow: hidden;
+    font-size: 36px;
+
+
+    .text {
+        color: #00DCFF;
+        width: 1580px;
+        line-height: 50px;
+        margin-bottom: 25px;
+    }
+
+    .table {
+        line-height: 50px;
+
+        .thead {
+            width: 1580px;
+            background-color: #00DCFF;
+
+            .th {
+                color: #03051B;
+                width: 33.33%;
+                line-height: 90px;
+                font-weight: bold;
+            }
+        }
+
+        .tbody {
+            height: auto;
+            transition: height linear 3s;
+        }
+
+        .tr {
+            width: 1580px;
+            margin-top: 2px;
+
+            .td {
+                width: 33.33%;
+                line-height: 90px;
+                font-weight: lighter;
+            }
+
+            &.tr-1, &.tr-3, &.tr-5 {
+                background-color: rgba(#00dcff, 0.1);
+            }
+
+            &.tr-2, &.tr-4 {
+                background-color: rgba(#00dcff, 0.05);
+            }
+        }
+    }
+}
